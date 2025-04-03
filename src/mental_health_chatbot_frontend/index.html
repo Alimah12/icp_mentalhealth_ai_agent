@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mental Health Chatbot</title>
+    <style>
+      /* Bluish background for the whole page */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #d0e7ff; /* Light bluish tone */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Container to center content */
+      .container {
+        background-color: #ffffff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 600px;
+      }
+
+      /* Header styling */
+      header {
+        background-color: #4a90e2; /* A vibrant blue */
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+        font-size: 1.5rem;
+      }
+
+      /* Conversation area styling */
+      #conversation {
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 300px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+      /* Input field styling */
+      #messageInput {
+        width: 80%;
+        padding: 5px;
+      }
+
+      /* Send button styling */
+      #sendBtn {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Mental Health Chatbot</header>
+      <div id="conversation"></div>
+      <input id="messageInput" type="text" placeholder="Type your message here..." />
+      <button id="sendBtn">Send</button>
+    </div>
+    <!-- Link your app.js script -->
+    <script type="module" src="/src/App.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "mental_health_chatbot_backend": {
+      "main": "src/mental_health_chatbot_backend/main.mo",
+      "type": "motoko"
+    },
+    "mental_health_chatbot_frontend": {
+      "dependencies": [
+        "mental_health_chatbot_backend"
+      ],
+      "source": [
+        "src/mental_health_chatbot_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "mental_health_chatbot_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
