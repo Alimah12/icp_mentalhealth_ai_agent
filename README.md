@@ -3,7 +3,7 @@
 ## Overview
 This project is a decentralized mental health chatbot built using Web3 technologies on the Internet Computer Protocol (ICP). The chatbot provides users with mental health support, tracks interactions, and rewards users with tokens for engagement. It leverages ICP's canister-based architecture and tokenization system to provide secure, transparent, and decentralized mental health support.
 
-## Features
+## Features.
 - **AI-powered chatbot** that provides mental health support.
 - **Decentralized architecture** running on ICP.
 - **Tokenization system** to reward user engagement.
@@ -80,7 +80,7 @@ Once tested locally, deploy to ICP’s mainnet:
 dfx deploy --network ic
 ```
 
-## Future Enhancements
+## Future Enhancements.
 - Advanced AI chatbot responses.
 - Expanded token-based reward system.
 - Integration with mental health resources.
